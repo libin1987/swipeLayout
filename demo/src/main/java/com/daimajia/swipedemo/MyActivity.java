@@ -185,7 +185,7 @@ public class MyActivity extends Activity {
             startActivity(new Intent(this, RecyclerViewExample.class));
         }
          else if (id == R.id.action_comm) {
-            startActivity(new Intent(this, CommListViewActivity.class));
+//            startActivity(new Intent(this, CommListViewActivity.class));
         }
          else if (id == R.id.action_comm_recycler) {
             startActivity(new Intent(this, RecyclerCommViewActivity.class));
